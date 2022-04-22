@@ -4,6 +4,8 @@
 
 ### Cloud Anvil Height, Temperature, and Cloud Fraction
 
+The script used to calculate ``cfv1`` and ``cfv2`` is provided at ``stauffer-wing_2022/scripts/cloudfraction.py``
+
 File Name | Domain | Cloud Fraction Definition
 ---|---|---
 anvil-properties_large_cfv1.csv | large | cfv1
@@ -29,6 +31,8 @@ Cg | RCEMIP Green Color | N/A
 Ca | RCEMIP Alpha Color | N/A
 
 ### Radiatively-Driven Divergence Profiles
+
+The script used to calculate the below profiles is provided at ``stauffer-wing_2022/scripts/divergence.py``
 
 File Name | Description
 ---|---
@@ -107,6 +111,8 @@ Ca | RCEMIP Alpha Color | N/A
 
 ### Conditional Statistics Profiles (used for mid-level scaling diagnostic)
 
+The script used to calculate the conditional statistics profiles is provided at ``stauffer-wing_2022/scripts/conditionalstats.py``
+
 File Name | Description
 ---|---
 midlevel_profiles_cfv1.tar.gz | conditional statistics using `cfv1` for all models, domains, and SSTs
@@ -124,6 +130,8 @@ Jp_int | troposphere-integrated radiative cooling rate | Wm<sup>-1</sup>
 cld_scaling | cloud fraction diagnosed by MLS | -
 
 ### Mid-level propertye metrics as used in Stauffer and Wing (2022, in review)
+
+The script used to calculate the mid-level metrics is provided at ``stauffer-wing_2022/scripts/midlevelscaling.py``
 
 Variable description is defiined in Section 2.4.1 of Stauffer and Wing (2022, in review)
 
