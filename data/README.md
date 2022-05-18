@@ -129,11 +129,11 @@ rhenv_mean | environmental relative humidity | -
 Jp_int | troposphere-integrated radiative cooling rate | W m<sup>-1</sup>
 cld_scaling | cloud fraction diagnosed by MLS | -
 
-### Mid-level property metrics as used in Stauffer and Wing (2022, in review)
+### Mid-level property metrics as used in Stauffer and Wing (2022)
 
 The script used to calculate the mid-level metrics is provided at ``stauffer-wing_2022/scripts/midlevelscaling.py``
 
-Variable description is defiined in Section 2.4.1 of Stauffer and Wing (2022, in review)
+Variable description is defiined in Section 2.4.1 of Stauffer and Wing (2022)
 
 File Name | Description | Units
 ---|---|---
