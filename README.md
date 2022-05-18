@@ -9,5 +9,7 @@ The scripts used to derive the data used in Stauffer and Wing (2022) are within 
 The version of this repository from 18 May 2022 has been archived at https://doi.org/10.5281/zenodo.6323552 (Stauffer & Wing, 2022)
 
 ## References
-Stauffer, C. L., & Wing, A. A. (2022). Cloud Properties and Changes in RCEMIP [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6323552
+
+Stauffer, C. L., & Wing, A. A. (2022). Cloud properties and changes in rcemip. Zenodo. doi: 10.5281/zenodo.6323552
+
 Stauffer, C. L., & Wing, A. A. (2022, in review). Properties, Changes, and Controls of Deep-Convecting Clouds in Radiative-Convective Equilibrium. Journal of Advances in Modeling Earth Systems.
