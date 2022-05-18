@@ -1,4 +1,4 @@
-# Derived Data used in Stauffer and Wing (2022, in review)
+# Derived Data used in Stauffer and Wing (2022)
 
 ## Files
 
@@ -40,15 +40,15 @@ rad-driven-div_profiles.tar.gz | profiles of radiatively-driven divergence for a
 
 Variable | Description | Unit
 ---|---|---
-ss_avg | static stability | KPa<sup>-1</sup>
+ss_avg | static stability | K Pa<sup>-1</sup>
 pa_avg | pressure | Pa
 ta_avg | temperature | K
 qr_avg | clear sky radiative cooling | day<sup>-1</sup>
-wa_full | clear sky vertical velocity | Pas<sup>-1</sup>
+wa_full | clear sky vertical velocity | Pa s<sup>-1</sup>
 rd_full | radiatively-driven divergence | day<sup>-1</sup>
-wa_300s | wa_full using ss_avg at 300 K | Pas<sup>-1</sup>
+wa_300s | wa_full using ss_avg at 300 K | Pa s<sup>-1</sup>
 rd_300s | rd_full using ss_avg at 300 K | day<sup>-1</sup>
-wa_300q | wa_full using qr_avg at 300 K | Pas<sup>-1</sup>
+wa_300q | wa_full using qr_avg at 300 K | Pa s<sup>-1</sup>
 rd_300q | rd_full using qr_avg at 300 K | day<sup>-1</sup>
 zg_avg | height | m
 
@@ -98,12 +98,12 @@ ZG300Q305 | 305 K height at peak Rd using Qr(300 K) | km
 TA300Q295 | 295 K temperature at peak Rd using Qr(300 K) | K
 TA300Q300 | 300 K temperature at peak Rd using Qr(300 K) | K
 TA300Q305 | 305 K temperature at peak Rd using Qr(300 K) | K
-STAB295 | 295 K static stability at peak Rd | KPa<sup>-1</sup>
-STAB300 | 300 K static stability at peak Rd | KPa<sup>-1</sup>
-STAB305 | 305 K static stability at peak Rd | KPa<sup>-1</sup>
-S220295 | 295 K 220K static stability at peak Rd | KPa<sup>-1</sup>
-S220300 | 300 K 220K static stability at peak Rd | KPa<sup>-1</sup>
-S220305 | 305 K 220K static stability at peak Rd | KPa<sup>-1</sup>
+STAB295 | 295 K static stability at peak Rd | K Pa<sup>-1</sup>
+STAB300 | 300 K static stability at peak Rd | K Pa<sup>-1</sup>
+STAB305 | 305 K static stability at peak Rd | K Pa<sup>-1</sup>
+S220295 | 295 K 220K static stability at peak Rd | K Pa<sup>-1</sup>
+S220300 | 300 K 220K static stability at peak Rd | K Pa<sup>-1</sup>
+S220305 | 305 K 220K static stability at peak Rd | K Pa<sup>-1</sup>
 Cr | RCEMIP Red Color | N/A
 Cb | RCEMIP Blue Color | N/A
 Cg | RCEMIP Green Color | N/A
@@ -111,7 +111,7 @@ Ca | RCEMIP Alpha Color | N/A
 
 ### Conditional Statistics Profiles (used for mid-level scaling diagnostic)
 
-The script used to calculate the conditional statistics profiles is provided at ``stauffer-wing_2022/scripts/conditionalstats.py``
+The script used to calculate the conditional statistics profiles is provided at ``stauffer-wing_2022/scripts/conditionalstats.py``. These follow the definitions used in SAM6.11.2, conditions used can be found in the above mentioned script.
 
 File Name | Description
 ---|---
@@ -126,10 +126,10 @@ z | height | m
 tabs_mean | temperature | K
 cld_mean | cloud fraction | -
 rhenv_mean | environmental relative humidity | -
-Jp_int | troposphere-integrated radiative cooling rate | Wm<sup>-1</sup>
+Jp_int | troposphere-integrated radiative cooling rate | W m<sup>-1</sup>
 cld_scaling | cloud fraction diagnosed by MLS | -
 
-### Mid-level propertye metrics as used in Stauffer and Wing (2022, in review)
+### Mid-level property metrics as used in Stauffer and Wing (2022, in review)
 
 The script used to calculate the mid-level metrics is provided at ``stauffer-wing_2022/scripts/midlevelscaling.py``
 
@@ -141,10 +141,10 @@ mlcf_metrics_large_exp.csv | mid-level cloud fraction, explicit convection | -
 mlcf_metrics_large_par.csv | mid-level cloud fraction, parameterized convection | -
 mlsd_metrics_large_exp.csv | mid-level scaling diagnostic, explicit convection | -
 rhum_metrics_large_exp.csv | enviornmental relative humidity | -
-wavg_metrics_large_exp.csv | cloudy updraft | ms<sup>-1</sup>
-dsea_metrics_large_exp.csv | DSE excess | Jm<sup>-3</sup>
-javg_metrics_large_exp.csv | radiative cooling rate | Wm<sup>-2</sup>K<sup>-1</sup>
-jint_metrics_large_exp.csv | integrated radiative cooling rate | Wm<sup>-2</sup>
+wavg_metrics_large_exp.csv | cloudy updraft | m s<sup>-1</sup>
+dsea_metrics_large_exp.csv | DSE excess | J m<sup>-3</sup>
+javg_metrics_large_exp.csv | radiative cooling rate | W m<sup>-2</sup> K<sup>-1</sup>
+jint_metrics_large_exp.csv | integrated radiative cooling rate | W m<sup>-2</sup>
 
 Below, &gamma; corresponds to the variable corresponding to whichever file in the table above
 
