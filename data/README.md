@@ -1,4 +1,4 @@
-# Derived Data used in Stauffer and Wing (2022)
+# Derived data used in Stauffer and Wing (2022)
 
 ## Files
 
