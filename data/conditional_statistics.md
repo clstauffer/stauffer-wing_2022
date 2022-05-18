@@ -1,5 +1,7 @@
 Table of variables in `midlevel_profiles_cfv1.tar.gz` and `midlevel_profiles_cfv2.tar.gz`
 
+The script used to calculate the conditional statistics profiles is provided at ``stauffer-wing_2022/scripts/conditionalstats.py``. These follow the definitions used in SAM6.11.2, conditions used can be found in the above mentioned script.
+
 Variable Name | Description
 ---|---
 cld_mean | cloud fraction [-]
